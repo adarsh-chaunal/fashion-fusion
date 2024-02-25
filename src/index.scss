@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box; //without this the padding and width will increase the size of your components
+                          // some times we just need to add padding, border and other inner styles but dont want it to modify the actual size of the element.
+}
